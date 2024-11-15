@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.niomi {
+    width: 50px; /* large size */
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Section styles */
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul, #projects-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Project card styles */
+.project-card {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
